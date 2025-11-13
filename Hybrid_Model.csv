@@ -1,0 +1,101 @@
+patient_id,age,gender,symptom_score,disease_risk,expected_utility,decision_threshold,predicted_action,explanation_score,model_confidence,outcome,model_type
+P001,71,Female,8.83,0.303,-0.5,0.37,Monitor,0.848,0.894,Improved,Hybrid Model
+P002,34,Male,1.89,0.537,0.161,0.56,Monitor,0.706,0.812,Improved,Hybrid Model
+P003,80,Male,2.79,0.327,0.734,0.46,Discharge,0.937,0.883,No Change,Decision Theory Model
+P004,40,Male,7.0,0.828,0.124,0.39,Treat,0.758,0.907,No Change,XAI Model
+P005,43,Female,8.47,0.272,-0.523,0.41,Discharge,0.987,0.635,Improved,XAI Model
+P006,22,Male,8.56,0.965,0.36,0.44,Treat,0.801,0.802,Worsened,Decision Theory Model
+P007,41,Male,4.05,0.457,0.48,0.4,Monitor,0.612,0.973,No Change,Hybrid Model
+P008,72,Male,8.88,0.842,-0.524,0.48,Treat,0.911,0.728,Improved,Hybrid Model
+P009,21,Female,8.51,0.194,-0.245,0.31,Discharge,0.673,0.838,No Change,Hybrid Model
+P010,49,Female,9.36,0.411,0.069,0.41,Monitor,0.674,0.748,No Change,Decision Theory Model
+P011,57,Female,7.85,0.7,-0.007,0.46,Treat,0.516,0.782,Improved,Hybrid Model
+P012,21,Female,6.69,0.138,-0.221,0.54,Discharge,0.774,0.819,Improved,Hybrid Model
+P013,83,Male,5.81,0.133,-0.405,0.41,Discharge,0.767,0.82,Improved,Hybrid Model
+P014,79,Female,3.72,0.97,-0.8,0.35,Treat,0.678,0.681,Improved,Hybrid Model
+P015,40,Female,9.4,0.715,-0.893,0.33,Treat,0.947,0.874,Worsened,Hybrid Model
+P016,52,Male,9.74,0.041,0.917,0.68,Discharge,0.564,0.635,Worsened,XAI Model
+P017,77,Other,2.84,0.399,0.694,0.47,Monitor,0.665,0.656,Improved,Hybrid Model
+P018,41,Female,3.05,0.434,-0.29,0.53,Monitor,0.661,0.601,Improved,XAI Model
+P019,68,Female,4.86,0.744,0.914,0.67,Monitor,0.546,0.647,Improved,Decision Theory Model
+P020,78,Female,4.48,0.251,0.354,0.33,Monitor,0.741,0.789,Improved,Hybrid Model
+P021,61,Female,9.94,0.184,-0.035,0.65,Discharge,0.844,0.842,Worsened,XAI Model
+P022,79,Male,1.76,0.081,-0.014,0.52,Discharge,0.756,0.918,Improved,Hybrid Model
+P023,34,Male,0.18,0.428,-0.833,0.37,Monitor,0.578,0.643,Improved,XAI Model
+P024,81,Female,4.94,0.688,-0.817,0.46,Treat,0.689,0.94,Improved,Hybrid Model
+P025,81,Male,1.79,0.058,0.205,0.61,Discharge,0.501,0.898,No Change,Decision Theory Model
+P026,66,Male,3.66,0.915,0.107,0.49,Treat,0.934,0.763,Improved,Hybrid Model
+P027,81,Female,7.44,0.442,-0.575,0.69,Discharge,0.542,0.973,No Change,Hybrid Model
+P028,70,Male,7.21,0.24,0.892,0.45,Discharge,0.799,0.996,Improved,Decision Theory Model
+P029,74,Male,3.08,0.094,0.563,0.6,Discharge,0.993,0.682,No Change,XAI Model
+P030,83,Male,5.43,0.183,-0.773,0.46,Discharge,0.768,0.752,No Change,Hybrid Model
+P031,22,Other,5.09,0.935,0.862,0.63,Treat,0.962,0.971,Improved,XAI Model
+P032,70,Male,6.36,0.638,0.948,0.53,Treat,0.618,0.889,Improved,Decision Theory Model
+P033,26,Female,2.5,0.517,0.992,0.33,Treat,0.88,0.619,Worsened,XAI Model
+P034,40,Male,5.9,0.657,-0.888,0.31,Treat,0.766,0.913,Worsened,XAI Model
+P035,58,Male,9.79,0.436,0.474,0.35,Monitor,0.86,0.931,Improved,Hybrid Model
+P036,37,Male,4.87,0.73,0.092,0.31,Treat,0.531,0.9,Improved,Hybrid Model
+P037,23,Male,9.06,0.048,0.412,0.33,Discharge,0.574,0.92,Worsened,XAI Model
+P038,79,Female,4.34,0.566,0.937,0.58,Monitor,0.567,0.93,No Change,Decision Theory Model
+P039,33,Female,3.5,0.159,0.376,0.51,Discharge,0.844,0.675,Improved,Hybrid Model
+P040,28,Female,6.45,0.12,0.674,0.6,Discharge,0.922,0.694,Worsened,XAI Model
+P041,72,Male,6.69,0.342,0.734,0.67,Discharge,0.875,0.854,Improved,Decision Theory Model
+P042,21,Male,8.64,0.092,0.677,0.53,Discharge,0.515,0.963,No Change,Hybrid Model
+P043,79,Male,2.3,0.094,-0.148,0.59,Discharge,0.934,0.726,Improved,Hybrid Model
+P044,63,Male,4.99,0.311,-0.555,0.6,Discharge,0.677,0.835,Improved,Hybrid Model
+P045,27,Female,5.72,0.98,-0.207,0.45,Treat,0.699,0.873,Improved,Hybrid Model
+P046,66,Male,7.69,0.175,0.784,0.4,Discharge,0.552,0.781,No Change,XAI Model
+P047,54,Male,0.44,0.017,-0.707,0.38,Discharge,0.869,0.886,Improved,Hybrid Model
+P048,55,Male,9.95,0.763,0.027,0.4,Treat,0.591,0.96,Improved,XAI Model
+P049,69,Male,4.7,0.807,-0.534,0.41,Treat,0.782,0.85,Improved,Decision Theory Model
+P050,23,Female,2.8,0.346,0.163,0.38,Monitor,0.92,0.816,No Change,XAI Model
+P051,21,Female,8.83,0.465,0.726,0.65,Discharge,0.545,0.775,Worsened,XAI Model
+P052,25,Male,7.48,0.65,0.761,0.6,Monitor,0.768,0.831,Improved,Hybrid Model
+P053,73,Other,9.53,0.048,-0.527,0.32,Discharge,0.617,0.742,No Change,Decision Theory Model
+P054,23,Male,3.31,0.949,0.815,0.41,Treat,0.671,0.757,Worsened,Decision Theory Model
+P055,73,Other,5.53,0.887,0.184,0.31,Treat,0.737,0.813,No Change,Decision Theory Model
+P056,82,Male,5.72,0.261,-0.3,0.5,Discharge,0.678,0.627,Improved,Decision Theory Model
+P057,37,Male,9.8,0.015,0.416,0.49,Discharge,0.824,0.692,Improved,Hybrid Model
+P058,63,Male,0.75,0.933,-0.037,0.63,Treat,0.74,0.817,Improved,Decision Theory Model
+P059,53,Female,3.06,0.501,-0.244,0.42,Monitor,0.792,0.773,Improved,Hybrid Model
+P060,81,Female,1.91,0.539,0.41,0.63,Monitor,0.868,0.733,Improved,XAI Model
+P061,33,Female,2.68,0.684,-0.503,0.69,Monitor,0.779,0.892,No Change,XAI Model
+P062,67,Male,4.85,0.616,-0.339,0.34,Treat,0.793,0.877,Improved,Hybrid Model
+P063,34,Female,3.73,0.944,-0.131,0.62,Treat,0.782,0.667,Improved,XAI Model
+P064,81,Female,3.95,0.944,-0.493,0.54,Treat,0.689,0.951,No Change,Hybrid Model
+P065,59,Male,8.44,0.867,-0.19,0.49,Treat,0.669,0.798,Improved,XAI Model
+P066,72,Male,9.3,0.636,0.143,0.47,Treat,0.95,0.897,Worsened,XAI Model
+P067,43,Male,0.7,0.801,0.482,0.61,Treat,0.804,0.829,No Change,Hybrid Model
+P068,45,Female,2.09,0.677,0.534,0.56,Treat,0.622,0.999,Improved,Decision Theory Model
+P069,79,Female,6.71,0.573,0.646,0.62,Monitor,0.749,0.901,No Change,Decision Theory Model
+P070,60,Other,3.59,0.129,0.488,0.66,Discharge,0.665,0.883,No Change,Hybrid Model
+P071,48,Male,2.54,0.811,0.362,0.55,Treat,0.967,0.911,No Change,Decision Theory Model
+P072,34,Female,2.95,0.821,-0.525,0.69,Treat,0.504,0.657,Improved,Hybrid Model
+P073,64,Female,3.23,0.626,-0.2,0.54,Monitor,0.613,0.682,Improved,XAI Model
+P074,84,Male,8.49,0.82,-0.045,0.55,Treat,0.683,0.886,No Change,Hybrid Model
+P075,28,Female,1.37,0.651,-0.834,0.52,Treat,0.744,0.798,Improved,Hybrid Model
+P076,20,Female,7.09,0.207,0.057,0.34,Discharge,0.925,0.902,Improved,Hybrid Model
+P077,27,Female,5.53,0.274,-0.127,0.59,Discharge,0.544,0.641,Improved,Hybrid Model
+P078,82,Male,2.97,0.215,0.604,0.52,Discharge,0.903,0.815,No Change,XAI Model
+P079,30,Male,4.2,0.377,0.956,0.48,Discharge,0.528,0.752,Improved,Hybrid Model
+P080,27,Female,2.56,0.039,0.112,0.66,Discharge,0.921,0.783,Worsened,Decision Theory Model
+P081,54,Female,6.12,0.618,-0.355,0.42,Treat,0.526,0.842,No Change,XAI Model
+P082,54,Male,0.82,0.337,-0.913,0.51,Discharge,0.509,0.801,Worsened,Decision Theory Model
+P083,52,Male,0.05,0.656,0.849,0.58,Monitor,0.848,0.816,Worsened,XAI Model
+P084,24,Other,6.28,0.385,0.838,0.62,Discharge,0.999,0.795,Worsened,Decision Theory Model
+P085,60,Male,1.94,0.682,-0.494,0.48,Treat,0.948,0.764,Worsened,Hybrid Model
+P086,47,Female,0.71,0.341,0.391,0.64,Discharge,0.788,0.909,Improved,Hybrid Model
+P087,26,Female,3.97,0.261,-0.849,0.61,Discharge,0.959,0.605,No Change,Hybrid Model
+P088,31,Female,0.51,0.496,-0.668,0.33,Treat,0.503,0.839,Improved,Decision Theory Model
+P089,53,Female,8.87,0.693,-0.566,0.32,Treat,0.988,0.826,Improved,Hybrid Model
+P090,52,Male,0.28,0.348,-0.411,0.55,Discharge,0.745,0.886,No Change,XAI Model
+P091,67,Female,5.79,0.937,0.992,0.44,Treat,0.861,0.84,No Change,XAI Model
+P092,42,Female,4.38,0.039,0.394,0.38,Discharge,0.91,0.931,Improved,XAI Model
+P093,81,Male,6.72,0.418,-0.232,0.53,Discharge,0.859,0.984,No Change,XAI Model
+P094,56,Male,3.28,0.968,0.474,0.44,Treat,0.768,0.737,Worsened,Hybrid Model
+P095,63,Other,1.55,0.548,0.831,0.51,Monitor,0.738,0.691,No Change,XAI Model
+P096,54,Female,9.82,0.423,0.917,0.48,Monitor,0.919,0.769,No Change,XAI Model
+P097,84,Male,8.39,0.569,-0.884,0.53,Monitor,0.603,0.715,Worsened,Decision Theory Model
+P098,66,Other,8.6,0.576,-0.211,0.46,Treat,0.984,0.846,Worsened,Decision Theory Model
+P099,22,Other,2.5,0.732,-0.786,0.58,Treat,0.855,0.965,No Change,Decision Theory Model
+P100,20,Female,0.39,0.128,-0.329,0.37,Discharge,0.6,0.656,Worsened,Hybrid Model
